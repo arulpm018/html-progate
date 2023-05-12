@@ -1,0 +1,208 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Avenir Next LT Pro';
+    color:#404146;
+}
+
+.header{
+    width: 100%;
+    background-color: #404146 ;
+}
+
+.container{
+    width: 100%;
+}
+
+.header-wrapper{
+    display:flex;
+    align-items: center;
+    
+}
+
+.logo-header{
+    color:white;
+    margin-left:30px;
+}
+
+.navbar-header{
+    margin-left:60px;
+}
+
+
+.navbar-header a{
+    padding:10px;
+    color:white;
+    text-decoration:none;
+}
+
+.top-wrapper{
+    background-color: white;
+}
+
+.content-wrapper{
+    color:#404146;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-wrapper h1{
+    letter-spacing: 2px;
+    letter-spacing: 0px;
+    margin-bottom: 0px;
+    font-size: 120px;
+}
+
+.content-wrapper p{
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top:20px;
+    margin-bottom:0px;
+}
+
+.content-wrapper img{
+    margin-top:20px;
+    height:360px;
+    width:360px
+}
+
+span{
+    color:#f1d00e;
+}
+
+.aboutme{
+    width:100%;
+    background-color: #f4f4f4;
+}
+
+.aboutme-wrapper{
+    padding:60px;
+    color: #404146;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutme-wrapper h1{
+    margin-bottom:30px;
+}
+
+.aboutme-wrapper p{
+    font-size:20px;
+    margin:0px 150px;
+    text-align:center;
+    line-height: 1.5;
+}
+
+.project{
+    margin:0 0;
+    background-color: white;
+
+}
+
+.project-wrapper{
+    margin-top:60px;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+}
+
+.projects{
+    align-items: center;
+    margin-top:60px;
+    display:flex;
+    gap:200px;
+}
+
+.project{
+    width:100%;
+    text-align: center;
+}
+
+.project img{
+    width:300px;
+}
+
+.contactme{
+    width:100%;
+    background-color: #f4f4f4;
+}
+
+.contactme-wrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-wrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactme-wrapper h1{
+    margin-top:80px;
+    margin-bottom:60px;
+}
+
+input{
+    font-size:15px;
+    padding-left:20px;
+    width:800px;
+    height:60px;
+    margin-bottom:40px;
+    border:none;
+    border-radius: 15px;
+    background-color: white;
+}
+
+textarea{
+    font-family: 'Avenir Next LT Pro';
+    font-size:15px;
+    padding-left:20px;
+    width:800px;
+    height:120px;
+    margin-bottom:40px;
+    border:none;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.button-submit{
+    width:400px;
+    background-color: #f7e989;
+}
+
+.footer{
+    width:100%;
+    background-color: #7c7d82;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer{
+    margin-top:10px;
+    color:white;
+    margin-left: 30px;
+}
+
+.navbar-footer{
+    margin-top: 25px;
+}
+
+.navbar-footer a{
+    font-size: 15px;
+    display:block;
+    padding:10px;
+    color:white;
+    text-decoration:none;
+}
+
+
+
+
